@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 header {
-    margin: 20px;
+    margin: 20px 0;
     width: 100%;
 }
 
