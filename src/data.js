@@ -1,4 +1,4 @@
-[
+const contents = [
   {
     text: 'Characters',
     url: '#',
