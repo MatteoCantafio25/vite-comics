@@ -3,6 +3,7 @@ import AppHeader from "./components/AppHeader.vue"
 import AppMainContent from "./components/AppMainContent.vue"
 import AppSpam from "./components/AppSpam.vue"
 import AppFooterTop from "./components/Footer/AppFooterTop.vue"
+import AppFooterBottom from "./components/Footer/AppFooterBottom.vue"
 
 export default {
 
@@ -12,6 +13,7 @@ export default {
     AppMainContent,
     AppSpam,
     AppFooterTop,
+    AppFooterBottom,
   },
 };
 </script>
@@ -20,7 +22,10 @@ export default {
   <AppHeader />
   <AppMainContent />
   <AppSpam />
-  <AppFooterTop />
+  <footer>
+    <AppFooterTop />
+    <AppFooterBottom />
+  </footer>
 </template>
 
 <style>
