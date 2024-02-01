@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 header {
-    margin: 20px 0;
+    margin: 20px;
     width: 100%;
 }
 
@@ -64,8 +64,12 @@ header {
 
 .header-container ul li a {
     text-decoration: none;
-    padding: 10px;
+    padding: 55px 10px;
     color: #56616C;
+}
+
+.header-container ul li a:hover {
+    border-bottom: 4px solid #0282F9;
 }
 
 .figure-container {

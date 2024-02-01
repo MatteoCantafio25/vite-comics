@@ -70,7 +70,7 @@ export default {
 
 <style scoped>
 .footer-top {
-    height: 400px;
+    height: 430px;
     background-image: url(../../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ a {
 }
 
 img {
-    height: 400px;
+    height: 430px;
     position: absolute;
     right: 0;
 }
