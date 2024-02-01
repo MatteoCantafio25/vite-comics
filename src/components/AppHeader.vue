@@ -31,7 +31,7 @@ export default {
     </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     margin: 20px 0;
     width: 100%;
@@ -44,32 +44,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    ul {
+        display: flex;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 55px 10px;
+        color: #56616C;
+    }
+
+    a:hover {
+        border-bottom: 4px solid #0282F9;
+    }
 }
 
 .categories {
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-.header-container ul {
-    display: flex;
-    padding: 0;
-}
-
-.header-container ul li {
-    list-style-type: none;
-    font-weight: bold;
-}
-
-.header-container ul li a {
-    text-decoration: none;
-    padding: 55px 10px;
-    color: #56616C;
-}
-
-.header-container ul li a:hover {
-    border-bottom: 4px solid #0282F9;
 }
 
 .figure-container {
