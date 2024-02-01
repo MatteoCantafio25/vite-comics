@@ -8,7 +8,7 @@ export default {
     <div class="spam"></div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .spam {
     height: 120px;
     background-color: #0282F9;

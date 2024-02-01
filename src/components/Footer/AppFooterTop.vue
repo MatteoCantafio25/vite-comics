@@ -68,7 +68,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .footer-top {
     height: 430px;
     background-image: url(../../assets/img/footer-bg.jpg);
@@ -86,22 +86,23 @@ export default {
 
 .footer-col {
     flex-basis: calc(40% / 3);
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(211, 211, 211, 0.783);
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        color: white;
+        margin: 20px 0;
+    }
 }
 
-h4 {
-    color: white;
-    margin: 20px 0;
-}
-
-.footer-col li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: rgba(211, 211, 211, 0.783);
-    font-size: 0.8rem;
-}
 
 img {
     height: 430px;

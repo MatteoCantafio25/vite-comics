@@ -22,20 +22,10 @@ export default {
   <AppHeader />
   <AppMainContent />
   <AppSpam />
-  <footer>
-    <AppFooterTop />
-    <AppFooterBottom />
-  </footer>
+  <AppFooterTop />
+  <AppFooterBottom />
 </template>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Open Sans', Open Sans Condensed;
-}
+<style lang="scss">
+@use './assets/scss/style.scss'
 </style>

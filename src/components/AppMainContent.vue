@@ -12,7 +12,7 @@ export default {
     </main>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
     background-color: #1C1C1C;
 }
@@ -23,9 +23,9 @@ main {
     margin: 0 auto;
     display: flex;
     align-items: center;
-}
 
-.content-container h2 {
-    color: white;
+    h2 {
+        color: white;
+    }
 }
 </style>

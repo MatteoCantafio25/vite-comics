@@ -26,25 +26,27 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .footer-bottom {
     height: 130px;
     background-color: #303030;
 }
 
-.right ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
+.right {
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 
-.right ul li {
-    list-style-type: none;
-}
+    li {
+        list-style-type: none;
+    }
 
-.right i {
-    font-size: 1.5rem;
+    i {
+        font-size: 1.5rem;
+    }
 }
 
 h3 {
