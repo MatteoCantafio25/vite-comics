@@ -1,10 +1,20 @@
 <script>
-
+import AppHeader from "./components/AppHeader.vue"
 export default {
+
   name: "Vite-Comics",
+  components: {
+    AppHeader
+  },
 };
 </script>
 
-<template></template>
+<template>
+  <AppHeader />
+</template>
 
-<style></style>
+<style>
+body {
+  font-family: 'Open Sans', Open Sans Condensed;
+}
+</style>
