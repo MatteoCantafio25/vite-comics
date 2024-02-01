@@ -33,11 +33,12 @@ export default {
 
 <style scoped>
 header {
+    margin: 20px;
     width: 100%;
 }
 
 .header-container {
-    height: 200px;
+    height: 100px;
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
