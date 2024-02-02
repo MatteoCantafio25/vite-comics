@@ -1,5 +1,6 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import AppJumbotron from "./components/AppJumbotron.vue";
 import AppMainContent from "./components/AppMainContent.vue";
 import AppSpam from "./components/AppSpam.vue";
 import AppFooterTop from "./components/Footer/AppFooterTop.vue";
@@ -10,6 +11,7 @@ export default {
   name: "Vite-Comics",
   components: {
     AppHeader,
+    AppJumbotron,
     AppMainContent,
     AppSpam,
     AppFooterTop,
@@ -108,6 +110,7 @@ export default {
 
 <template>
   <AppHeader />
+  <AppJumbotron />
   <AppMainContent :series="series" />
   <AppSpam />
   <AppFooterTop />
