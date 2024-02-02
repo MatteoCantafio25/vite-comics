@@ -64,14 +64,15 @@ main {
 
 .position-button {
     position: absolute;
-    top: -10px;
-    left: 100px;
+    top: -12px;
+    left: 15%;
 
     a {
         text-decoration: none;
         color: white;
         padding: 5px 10px;
         background-color: #0282F9;
+        font-size: 1.1rem;
     }
 }
 </style>
